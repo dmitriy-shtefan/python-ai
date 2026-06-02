@@ -1,3 +1,4 @@
 .idea
 .venv
 ~*.pptx
+notebooks/.ipynb_checkpoints
