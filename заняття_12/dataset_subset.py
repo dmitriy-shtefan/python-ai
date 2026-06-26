@@ -29,7 +29,7 @@ def make_balanced_subset(dataset, per_class, seed=42):
 
 def make_cifar10_demo_subsets(train_dataset, test_dataset, seed=42):
     return (
-        make_balanced_subset(train_dataset, per_class=1000, seed=seed),
+        make_balanced_subset(train_dataset, per_class=200, seed=seed),
         make_balanced_subset(test_dataset, per_class=50, seed=seed),
     )
 
